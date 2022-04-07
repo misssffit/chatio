@@ -1,0 +1,81 @@
+@import "null.scss";
+
+@import "var.scss";
+
+@import "nav.scss";
+
+@import "try.scss";
+
+@import "team.scss";
+
+@import "perfect.scss";
+
+@import "footer.scss";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@500;700&family=Roboto&display=swap');
+
+a{
+    &:visited{
+        color: white;
+    }
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px 0 10px ;
+    margin: 0 auto;
+}
+
+
+.block{
+    background: #3574C4;
+    padding-top: 40px;
+    padding-bottom: 145px;
+}
+
+.button{
+        width: 160px;
+        height: 40px;
+        border-radius: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.icon{
+    display: none;
+}
+
+@import "adapt.scss";

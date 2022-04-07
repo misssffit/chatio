@@ -1,0 +1,41 @@
+.team {
+
+    // .team__row
+    &__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+        margin-bottom: 200px;
+    }
+
+    // .team__title
+
+    &__title {
+        color: #000;
+        margin-bottom: 64px;
+        text-align: center;
+    }
+
+    // .team__text
+
+    &__text {
+        max-width: 948px;
+        text-align: center;
+        p{
+            margin-bottom: 32px;
+        }
+        margin-bottom: 32px;
+    }
+
+    &__img{
+        max-width: 1300px;
+        img{
+            width: 100%;
+        }
+    }
+    // .team__img
+
+}
+
+

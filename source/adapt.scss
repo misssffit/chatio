@@ -1,0 +1,96 @@
+@import "null.scss";
+
+@import "var.scss";
+
+@import "nav.scss";
+
+@import "try.scss";
+
+@import "team.scss";
+
+@import "perfect.scss";
+
+@import "footer.scss";
+
+
+
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .perfect{
+        max-width: 970px;
+    }
+    .footer__row{
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+    .perfect{
+        max-width: 750px;
+    }
+    .footer__row{
+        max-width: 750px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container{
+        max-width: none;
+    }
+    .perfect{
+        max-width: none;
+    }
+    .footer__row{
+        max-width: none;
+    }
+    .try__row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .try__content{
+        margin-bottom: 30px;
+    }
+    .team__row{
+        margin-bottom: 30px;
+    }
+    .perfect__content{
+        margin-bottom: 30px;
+    }
+    .perfect__row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer__row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+    .footer{
+        &__column{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .text{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .title{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .try__header{
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
